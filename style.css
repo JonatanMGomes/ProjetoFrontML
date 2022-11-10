@@ -1,0 +1,57 @@
+.header {
+    background-color: yellow;
+    height: 14vh;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    background-color: lightgrey;
+    height: 86vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.search,
+.naviBar {
+    height: 7vh;
+    line-height: 7vh;
+}
+
+.naviBar {
+    border-style: solid;
+}
+
+.navOption {
+    margin-left: 2vw;
+}
+
+.benefits {
+    background-color: white;
+    height: 15vh;
+    width: 80vw;
+    text-align: center;
+    margin-top: 5vh;
+    border-radius: 1vw;
+    display: inline-block;
+}
+
+.firstOffer, .offer {
+    height: 15vh;
+    width: 20vw;
+    text-align: left;
+    float: left;
+}
+
+.firstOffer{
+    border-right: solid 0.3vh;
+}
+
+.offerTitle{
+    margin-top: 3.5vh;
+}
+
+.offerTitle, .offerSubTitle{
+    margin-left: 1vw;
+}
