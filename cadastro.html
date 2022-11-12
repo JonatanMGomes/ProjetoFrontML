@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- CSS reset -->
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <section class="search">
+            <label for="searchBar">Buscar produtos</label>
+            <input type="text" name="searchBar" id="searchBar" placeholder="Ex: SmartPhone">
+        </section>
+        <section class="naviBar">
+            <a href="./index.html" class="navOption">Home</a>
+            <a href="./categorias.html" class="navOption">Categorias</a>
+            <a href="./ofertasDoDia.html" class="navOption">Ofertas do dia</a>
+            <a href="./historico.html" class="navOption">Histórico</a>
+            <a href="./moda.html" class="navOption">Moda</a>
+        </section>
+    </section>
+    <section class="content">
+        <section class="theForm contents">
+            <form>
+                <h2>Cadastro de Usuário</h2>
+                <div>
+                    <label for="name">Escreva seu nome</label>
+                    <input type="text" name="name" id="name" placeholder="Ex: João da Silva">
+                </div>
+                <div>
+                    <label for="email">Escreva seu email</label>
+                    <input type="text" name="email" id="email" placeholder="Ex: email@email.com">
+                </div>
+                <div>
+                    <label for="password">Escreva senha desejada</label>
+                    <input type="text" name="password" id="password" placeholder="Ex: Abc123#">
+                </div>
+                <div>
+                    <label for="passwordConfirmation">Confirme sua senha</label>
+                    <input type="text" name="passwordConfirmation" id="passwordConfirmation"
+                        placeholder="Ex: Abc123#">
+                </div>
+                <div>
+                    <label for="sex">Informe seu sexo</label>
+                    <select name="sex" id="sex">
+                        <option value="male">Masculino</option>
+                        <option value="female">Feminino</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>

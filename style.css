@@ -27,31 +27,62 @@
     margin-left: 2vw;
 }
 
+.navOption:hover {
+    transition: 0.5s;
+    padding: 0.5%;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
 .benefits {
     background-color: white;
     height: 15vh;
-    width: 80vw;
-    text-align: center;
-    margin-top: 5vh;
     border-radius: 1vw;
+}
+
+.contents {
+    width: 80vw;
+    margin-top: 5vh;
     display: inline-block;
 }
 
-.firstOffer, .offer {
+.firstOffer,
+.offer {
     height: 15vh;
     width: 20vw;
     text-align: left;
     float: left;
 }
 
-.firstOffer{
+.firstOffer {
     border-right: solid 0.3vh;
 }
 
-.offerTitle{
+.offerTitle {
     margin-top: 3.5vh;
 }
 
-.offerTitle, .offerSubTitle{
+.offerTitle,
+.offerSubTitle {
     margin-left: 1vw;
+}
+
+.theForm{
+    background-color: white;
+    width: 40vw;
+    border-radius: 1vw;
+}
+
+.marketingItem{
+    background-color: white;
+    float: left;
+    height: 224px;
+    width: 15vw;
+    margin: 2.5vw;
+    overflow: hidden;
+}
+
+.marketingItem:hover{
+    transition-duration: 0.5s;
+    height: 330px;
+    transition-timing-function: ease-out;
 }
