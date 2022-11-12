@@ -75,7 +75,7 @@
 .marketingItem{
     background-color: white;
     float: left;
-    height: 224px;
+    height: 250px;
     width: 15vw;
     margin: 2.5vw;
     overflow: hidden;
@@ -85,4 +85,18 @@
     transition-duration: 0.5s;
     height: 330px;
     transition-timing-function: ease-out;
+}
+
+.itemInfo{
+    border-top: solid;
+    
+}
+
+.oldPrice{
+    display: none;
+}
+
+.marketingItem:hover .oldPrice{
+    display: block;
+    text-decoration: line-through red;
 }
